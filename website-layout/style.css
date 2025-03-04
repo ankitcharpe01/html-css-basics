@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header and Footer */
+header, footer {
+    background: #9ACD32; 
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Main content layout */
+.content {
+    display: flex;
+    flex: 1;
+}
+
+/* Article*/
+main {
+    flex: 1;
+    background: white;
+    padding: 1rem;
+}
+
+/* Sidebar */
+aside {
+    width: 20%;
+    background: #f7f7c4; 
+    padding: 1rem;
+}
+
+/* Navigation */
+nav {
+    width: 20%;
+    background: #d7f0d7; 
+    padding: 1rem;
+}
+
